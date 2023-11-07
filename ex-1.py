@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'it works'
+    return 'it works  <a href="http://127.0.0.1:5000/user/">user form</a>'
 
 
 @app.get('/user/')
