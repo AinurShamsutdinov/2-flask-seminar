@@ -1,0 +1,12 @@
+{% extends 'ex-5/base.html' %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+<form action="/calc" method="post">
+    <input type="text" name="numberOne" placeholder="Number one">
+    <input type="text" name="numberTwo" placeholder="Number two">
+    <input type="text" name="operation" placeholder="Operation">
+    <input type="submit" value="Calculate">
+</form>
+{% endblock %}
