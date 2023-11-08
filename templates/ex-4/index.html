@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+<form action="/count" method="post">
+    <input type="text" name="text" placeholder="Text">
+    <input type="submit" value="Send">
+</form>
+{% endblock %}
