@@ -1,0 +1,11 @@
+{% extends 'ex-5/base.html' %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+<form action="/userpage" method="post">
+    <input type="text" name="userName" placeholder="Name">
+    <input type="text" name="userAge" placeholder="Age">
+    <input type="submit" value="Send">
+</form>
+{% endblock %}
