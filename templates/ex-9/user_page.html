@@ -1,0 +1,15 @@
+{% extends 'ex-5/base.html' %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <ul class="nav nav-pills justify-content-end align-items-end">
+        <li class="nav-item"><a href="/exit/" class="nav-link">Exit</a></li>
+    </ul>
+
+    <p>Hi, it is your personal page our dearest user!</p><br>
+    <p>Username: {{ name }}</p><br>
+    <p>User E-mail: {{ email }}</p><br>
+</div>
+{% endblock %}

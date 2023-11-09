@@ -3,8 +3,9 @@
 {{ title }}
 {% endblock %}
 {% block content %}
-<form action="/power" method="post">
-    <input type="text" name="number" placeholder="Number">
+<form action="/" method="post">
+    <input type="text" name="name" placeholder="Username">
+    <input type="text" name="email" placeholder="E-mail">
     <input type="submit" value="Send">
 </form>
 {% endblock %}
