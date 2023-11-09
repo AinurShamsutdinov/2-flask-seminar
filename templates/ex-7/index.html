@@ -1,0 +1,10 @@
+{% extends 'ex-5/base.html' %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+<form action="/power" method="post">
+    <input type="text" name="number" placeholder="Number">
+    <input type="submit" value="Send">
+</form>
+{% endblock %}
